@@ -8,6 +8,7 @@ var certy = {
 
         // Set theme primary color
         themeColor: '#c0e3e7',
+        // themeColor: '#c0e3e7',
 
         // Set middle screen size, must have the same value as in the _variables.scss
         screenMd: '992px'

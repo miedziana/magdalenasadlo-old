@@ -15,6 +15,10 @@ body {
     margin: 0;
 }
 
+:root {
+  --main-bg-color: #c0e3e7;
+}
+
 article,
 aside,
 details,
@@ -6627,7 +6631,7 @@ h1, h2, h3, h4, h5, h6 {
 .icon-list .crt-icon,
 .post-title a:hover,
 .crt-nav-type1 .crt-nav li.current a {
-    color: #c0e3e7;
+    color: var(--main-bg-color);
 }
 
 mark,
@@ -6645,7 +6649,7 @@ mark,
 #crt-main-nav .sub-menu li > a:hover,
 #crt-main-nav .sub-menu .current > a,
 #crt-main-nav-sm .sub-menu:before {
-    background-color: #c0e3e7;
+    background-color: var(--main-bg-color);
 }
 
 .btn-share,
@@ -6654,19 +6658,19 @@ mark,
 .progress-bullets .bullet,
 .education-date:after,
 .education-date:before {
-    border-color: #c0e3e7;
+    border-color: var(--main-bg-color);
 }
 
 ::-moz-selection {
-    background-color: #c0e3e7;
+    background-color: var(--main-bg-color);
 }
 
 ::selection {
-    background-color: #c0e3e7;
+    background-color: var(--main-bg-color);
 }
 
 #crt-bg-shape-2 polygon {
-    fill: #c0e3e7;
+    fill: var(--main-bg-color);
 }
 
 /* Color Darkest */
