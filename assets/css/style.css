@@ -5149,6 +5149,7 @@ yx-axis
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
+    cursor: pointer;
 }
 
 .crt-nav-type2 .crt-nav li.current a {
